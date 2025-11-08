@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="720" height="720" viewBox="0 0 720 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    
+    <linearGradient id="barbarian-action-bg" gradientTransform="rotate(21)">
+      <stop offset="0%" stop-color="#ffb347"/>
+      <stop offset="100%" stop-color="#ff6f61"/>
+    </linearGradient>
+  
+    
+    <linearGradient id="barbarian-action-glow" gradientTransform="rotate(114)">
+      <stop offset="0%" stop-color="#f72585"/>
+      <stop offset="100%" stop-color="#f4a261"/>
+    </linearGradient>
+  
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#3c1f0f" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect x="40" y="40" width="640" height="640" rx="48" fill="url(#barbarian-action-bg)"/>
+  <circle cx="400" cy="240" r="140" fill="url(#barbarian-action-glow)" opacity="0.32"/>
+  <g transform="translate(0, 20)" filter="url(#shadow)">
+    <g transform="translate(360, 360) rotate(-10) translate(-360, -360)">
+      
+        <path d="M310 150 C320 110 360 110 370 150 L350 180 C340 170 320 170 310 180 Z" fill="#f72585" stroke="#3c1f0f" stroke-width="6" stroke-linejoin="round"/>
+        <path d="M410 150 C420 110 460 110 470 150 L450 180 C440 170 420 170 410 180 Z" fill="#f72585" stroke="#3c1f0f" stroke-width="6" stroke-linejoin="round"/>
+      
+      <rect x="300" y="200" width="160" height="160" rx="60" fill="#f6c177" stroke="#3c1f0f" stroke-width="10"/>
+      <circle cx="360" cy="260" r="74" fill="#f4a261" stroke="#3c1f0f" stroke-width="8"/>
+      <ellipse cx="330" cy="250" rx="16" ry="20" fill="#3c1f0f" opacity="0.85"/>
+      <ellipse cx="390" cy="250" rx="16" ry="20" fill="#3c1f0f" opacity="0.85"/>
+      <path d="M330 310 Q360 336 390 310" stroke="#3c1f0f" stroke-width="10" stroke-linecap="round" fill="none"/>
+      <rect x="290" y="320" width="180" height="200" rx="70" fill="#f6c177" stroke="#3c1f0f" stroke-width="10"/>
+      <rect x="310" y="420" width="140" height="120" rx="60" fill="#f4a261" stroke="#3c1f0f" stroke-width="10"/>
+      <rect x="270" y="340" width="52" height="160" rx="26" fill="#f4a261" stroke="#3c1f0f" stroke-width="8"/>
+      <rect x="398" y="340" width="52" height="160" rx="26" fill="#f4a261" stroke="#3c1f0f" stroke-width="8"/>
+      <rect x="320" y="512" width="60" height="110" rx="28" fill="#f72585" stroke="#3c1f0f" stroke-width="8"/>
+      <rect x="380" y="512" width="60" height="110" rx="28" fill="#f72585" stroke="#3c1f0f" stroke-width="8"/>
+      <rect x="310" y="360" width="160" height="60" rx="30" fill="#f72585" opacity="0.3"/>
+    </g>
+    
+        <g transform="rotate(-28 500 370)">
+          <rect x="486" y="230" width="28" height="160" rx="12" fill="#ffd166" stroke="#3c1f0f" stroke-width="6"/>
+          <polygon points="486,230 500,170 514,230" fill="#f72585"/>
+          <rect x="464" y="350" width="72" height="20" rx="10" fill="#f72585" stroke="#3c1f0f" stroke-width="5"/>
+        </g>
+      
+  </g>
+  <text x="60" y="640" font-family="Poppins, 'Segoe UI', sans-serif" font-weight="600" font-size="40" fill="#3c1f0f" letter-spacing="1">Barbarian</text>
+  <text x="60" y="680" font-family="'Noto Sans Arabic', 'Segoe UI', sans-serif" font-weight="700" font-size="34" fill="#3c1f0f">البرابري</text>
+</svg>

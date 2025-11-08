@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="720" height="720" viewBox="0 0 720 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    
+    <linearGradient id="pekka-action-bg" gradientTransform="rotate(21)">
+      <stop offset="0%" stop-color="#8e2de2"/>
+      <stop offset="100%" stop-color="#4a00e0"/>
+    </linearGradient>
+  
+    
+    <linearGradient id="pekka-action-glow" gradientTransform="rotate(114)">
+      <stop offset="0%" stop-color="#00f5d4"/>
+      <stop offset="100%" stop-color="#9d4edd"/>
+    </linearGradient>
+  
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#1a0a2e" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect x="40" y="40" width="640" height="640" rx="48" fill="url(#pekka-action-bg)"/>
+  <circle cx="400" cy="240" r="140" fill="url(#pekka-action-glow)" opacity="0.32"/>
+  <g transform="translate(0, 20)" filter="url(#shadow)">
+    <g transform="translate(360, 360) rotate(-10) translate(-360, -360)">
+      
+        <path d="M310 160 L470 160 L450 210 L330 210 Z" fill="#00f5d4"/>
+        <rect x="330" y="175" width="120" height="22" rx="4" fill="#1a0a2e"/>
+      
+      <rect x="300" y="200" width="160" height="160" rx="60" fill="#c77dff" stroke="#1a0a2e" stroke-width="10"/>
+      <circle cx="360" cy="260" r="74" fill="#9d4edd" stroke="#1a0a2e" stroke-width="8"/>
+      <ellipse cx="330" cy="250" rx="16" ry="20" fill="#1a0a2e" opacity="0.85"/>
+      <ellipse cx="390" cy="250" rx="16" ry="20" fill="#1a0a2e" opacity="0.85"/>
+      <path d="M330 310 Q360 336 390 310" stroke="#1a0a2e" stroke-width="10" stroke-linecap="round" fill="none"/>
+      <rect x="290" y="320" width="180" height="200" rx="70" fill="#c77dff" stroke="#1a0a2e" stroke-width="10"/>
+      <rect x="310" y="420" width="140" height="120" rx="60" fill="#9d4edd" stroke="#1a0a2e" stroke-width="10"/>
+      <rect x="270" y="340" width="52" height="160" rx="26" fill="#9d4edd" stroke="#1a0a2e" stroke-width="8"/>
+      <rect x="398" y="340" width="52" height="160" rx="26" fill="#9d4edd" stroke="#1a0a2e" stroke-width="8"/>
+      <rect x="320" y="512" width="60" height="110" rx="28" fill="#00f5d4" stroke="#1a0a2e" stroke-width="8"/>
+      <rect x="380" y="512" width="60" height="110" rx="28" fill="#00f5d4" stroke="#1a0a2e" stroke-width="8"/>
+      <rect x="310" y="360" width="160" height="60" rx="30" fill="#00f5d4" opacity="0.3"/>
+    </g>
+    
+        <g transform="rotate(-28 500 370)">
+          <path d="M476 230 L590 330 L476 430 Z" fill="#48bfe3" stroke="#1a0a2e" stroke-width="6"/>
+          <rect x="465" y="340" width="30" height="100" rx="12" fill="#00f5d4"/>
+        </g>
+      
+  </g>
+  <text x="60" y="640" font-family="Poppins, 'Segoe UI', sans-serif" font-weight="600" font-size="40" fill="#1a0a2e" letter-spacing="1">P.E.K.K.A</text>
+  <text x="60" y="680" font-family="'Noto Sans Arabic', 'Segoe UI', sans-serif" font-weight="700" font-size="34" fill="#1a0a2e">بيكا</text>
+</svg>

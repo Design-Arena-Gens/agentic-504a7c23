@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="720" height="720" viewBox="0 0 720 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    
+    <linearGradient id="nita-action-bg" gradientTransform="rotate(21)">
+      <stop offset="0%" stop-color="#fbd3e9"/>
+      <stop offset="100%" stop-color="#bb377d"/>
+    </linearGradient>
+  
+    
+    <linearGradient id="nita-action-glow" gradientTransform="rotate(114)">
+      <stop offset="0%" stop-color="#c9184a"/>
+      <stop offset="100%" stop-color="#fb7185"/>
+    </linearGradient>
+  
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#5f0f40" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect x="40" y="40" width="640" height="640" rx="48" fill="url(#nita-action-bg)"/>
+  <circle cx="400" cy="240" r="140" fill="url(#nita-action-glow)" opacity="0.32"/>
+  <g transform="translate(0, 20)" filter="url(#shadow)">
+    <g transform="translate(360, 360) rotate(-10) translate(-360, -360)">
+      
+        <circle cx="330" cy="150" r="35" fill="#c9184a" stroke="#5f0f40" stroke-width="6"/>
+        <circle cx="450" cy="150" r="35" fill="#c9184a" stroke="#5f0f40" stroke-width="6"/>
+      
+      <rect x="300" y="200" width="160" height="160" rx="60" fill="#fed7aa" stroke="#5f0f40" stroke-width="10"/>
+      <circle cx="360" cy="260" r="74" fill="#fb7185" stroke="#5f0f40" stroke-width="8"/>
+      <ellipse cx="330" cy="250" rx="16" ry="20" fill="#5f0f40" opacity="0.85"/>
+      <ellipse cx="390" cy="250" rx="16" ry="20" fill="#5f0f40" opacity="0.85"/>
+      <path d="M330 310 Q360 336 390 310" stroke="#5f0f40" stroke-width="10" stroke-linecap="round" fill="none"/>
+      <rect x="290" y="320" width="180" height="200" rx="70" fill="#fed7aa" stroke="#5f0f40" stroke-width="10"/>
+      <rect x="310" y="420" width="140" height="120" rx="60" fill="#fb7185" stroke="#5f0f40" stroke-width="10"/>
+      <rect x="270" y="340" width="52" height="160" rx="26" fill="#fb7185" stroke="#5f0f40" stroke-width="8"/>
+      <rect x="398" y="340" width="52" height="160" rx="26" fill="#fb7185" stroke="#5f0f40" stroke-width="8"/>
+      <rect x="320" y="512" width="60" height="110" rx="28" fill="#c9184a" stroke="#5f0f40" stroke-width="8"/>
+      <rect x="380" y="512" width="60" height="110" rx="28" fill="#c9184a" stroke="#5f0f40" stroke-width="8"/>
+      <rect x="310" y="360" width="160" height="60" rx="30" fill="#c9184a" opacity="0.3"/>
+    </g>
+    
+        <g transform="rotate(-28 500 370)">
+          <rect x="476" y="250" width="48" height="140" rx="18" fill="#ff9e00" stroke="#5f0f40" stroke-width="6"/>
+          <circle cx="500" cy="280" r="22" fill="#c9184a"/>
+          <circle cx="500" cy="280" r="10" fill="#5f0f40"/>
+        </g>
+      
+  </g>
+  <text x="60" y="640" font-family="Poppins, 'Segoe UI', sans-serif" font-weight="600" font-size="40" fill="#5f0f40" letter-spacing="1">Nita</text>
+  <text x="60" y="680" font-family="'Noto Sans Arabic', 'Segoe UI', sans-serif" font-weight="700" font-size="34" fill="#5f0f40">نيتا</text>
+</svg>

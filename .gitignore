@@ -915,3 +915,16 @@ config/database.yml
 *.zip
 
 # ===== END =====
+
+# Allow published assets required for the guide
+!public/
+!public/images/
+!public/images/**
+
+# Ensure required config JSON files are tracked
+!package.json
+!tsconfig.json
+!jsconfig.json
+!next-env.d.ts
+!next.config.mjs
+!.eslintrc.json
